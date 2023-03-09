@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-plugin-git-commit-date-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npm run build -- --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "eleventy-plugin-git-commit-date": "^0.1.3"
+  }
+}
