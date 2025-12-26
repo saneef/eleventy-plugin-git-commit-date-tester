@@ -1,0 +1,12 @@
+---
+eleventyExcludeFromCollections: true
+title: List of Pages
+---
+
+Last updated: {{ collections.all | getCollectionNewestGitCommitDate }}
+
+<ul>
+  {% for page in collections.all %}
+  <li><a href="{{page.url}}">{{page.data.title}}</a></li>
+  {% endfor %}
+</ul>

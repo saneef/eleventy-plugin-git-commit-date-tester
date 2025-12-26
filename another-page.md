@@ -1,5 +1,5 @@
 ---
-title: Anothe page
+title: Another page
 layout: base.njk
 ---
 
